@@ -1,0 +1,200 @@
+@font-face {
+  font-family: "Futura";
+    src: url('futura_medium-webfont.woff2') format('woff2'),
+         url('futura_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+ 
+body{	
+	background-color: #6ab8e7;
+	background-size: cover;
+	background-repeat: repeat;
+	background-attachment: fixed;
+	font-family: Futura ;}
+	
+/* Text */		 
+ 
+p{
+	text-align: left;
+	font-family: Futura ;
+	font-size:120%;}
+				   
+h1{
+	font-size:200%;
+	font-family:Futura;
+	text-align:center;}				   
+
+h2{
+	text-align:center;
+	font-family:Futura;
+	
+   }
+   
+/* Containers */  
+ 
+.container{
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+	padding: 20px;
+	margin: 0px auto;
+	border-radius: 3px;
+	background: #FFF;
+	width: 80%;
+	left: 50%;
+	background-color: rgba(255,255,255,0.6);
+	
+}
+.container_subjects{
+	display: inline-block;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+	padding: 20px;
+	margin: 0px 15px;
+	border-radius: 3px;
+	background: #FFF;
+	width: 96.75%;
+	left: 50%;
+	background-color: rgba(255,255,255,0.6);
+}
+.box-full {
+	float: left;
+	width: 100%;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+	padding: 20px;
+	margin: 0px auto;
+	border-radius: 3px;
+}
+
+.box-left {
+	float: left;
+	width: 49%;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+	padding: 20px;
+	margin: 0px auto;
+	border-radius: 3px;
+}
+
+.box-right {
+	float: right;
+	width: 49%;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+	padding: 20px;
+	margin: 0px auto;
+	border-radius: 3px;
+}
+
+.list {
+	list-style-type:none;
+	text-align:center;
+	font-family:Futura;
+	padding: 20px;
+}
+/* Images */
+
+.circle {
+	width:260px;
+	height:260px;
+	object-fit:cover;
+	border-radius:50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.rect{
+	width:425px;
+	height:225px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Navigation */
+
+.topnav {
+  background-color: #6ab8e7;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Futura;
+}
+
+.topnav a:hover {
+  background-color: #f18134;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #f18134;
+  color: white;
+}
+
+/* Contact */
+.contact {
+    padding-top: 25px;
+}
+ .white_bg {
+    background-color: #fff;
+    padding: 40px 30px 30px 30px 
+}
+ .contact .titlepage {
+    text-align: center;
+}
+ .contact .titlepage h3 {
+    padding: 0px 0px 6px 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    line-height: 46px;
+    border-bottom: #fff solid 1px;
+    font-size: 40px;
+    width: 367px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+ .contact .contact_bg {
+    background: #f18134;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    padding: 60px;
+}
+ .contact .contact_bg .contactus {
+    border: #b1b0b0 solid 1px;
+    padding: 12px 19px;
+    margin-bottom: 26px;
+    border-radius: inherit;
+    color: #000;
+    width: 100%;
+}
+ .contact .contact_bg .textarea {
+    margin-bottom: 25px;
+    padding: 15px 19px;
+    color: #000 ;
+    width: 100%;
+    border: #b1b0b0 solid 1px;
+    border-radius: inherit;
+}
+ .contact .contact_bg .send {
+    font-size: 16px;
+    border: #000 solid 1px;
+    background-color: #fff;
+    color: #6ab8e7;
+    padding: 11px 67px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+ .contact .contact_bg .send:hover {
+    background-color: #6ab8e7;
+	border: #fff solid 1px;
+	color: #f00;
+}
